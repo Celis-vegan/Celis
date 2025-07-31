@@ -47,6 +47,48 @@
           <h4 class="text-xl font-bold mb-2 text-green-800">Postre Choco-Avellana</h4>
           <p>Mousse vegano de chocolate con base de avena sin gluten y avellanas tostadas.</p>
         </div>
+        <!-- Nuevos platos -->
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Hamburguesa Vegana</h4>
+  <p>Medallón de lentejas y arroz integral, pan sin gluten, tomate, lechuga y mayonesa vegetal.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Wrap de Falafel</h4>
+  <p>Falafel casero, hummus, zanahoria rallada y rúcula en wrap sin T.A.C.C.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Pizza Vegana</h4>
+  <p>Masa sin gluten, salsa de tomate natural, queso vegetal y vegetales de estación.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Bowl Energía</h4>
+  <p>Arroz yamaní, lentejas, palta, tomate cherry, semillas y dressing cítrico.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Sopa Thai Vegana</h4>
+  <p>Coco, curry suave, fideos de arroz, tofu y verduras salteadas.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Ñoquis de Calabaza</h4>
+  <p>Ñoquis caseros sin gluten con salsa cremosa de castañas de cajú.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Tarta de Verduras</h4>
+  <p>Masa de arroz sin T.A.C.C., relleno de zapallito, zanahoria, cebolla y queso vegano.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Milanesa de Berenjena</h4>
+  <p>Rebozada con harina de garbanzo, horneada y servida con puré de batata.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Budín de Banana</h4>
+  <p>Sin gluten, sin azúcar refinada. Ideal para el desayuno o merienda.</p>
+</div>
+<div class="bg-green-50 p-6 rounded-xl shadow">
+  <h4 class="text-xl font-bold mb-2 text-green-800">Helado Vegano</h4>
+  <p>Helado artesanal a base de leche de almendras con sabor a frutos rojos.</p>
+</div>
+
       </div>
     </div>
   </section>
@@ -61,6 +103,51 @@
       </p>
     </div>
   </section>
+  <!-- Reservas -->
+<section id="reservas" class="py-16 bg-white">
+  <div class="container mx-auto px-4 max-w-xl">
+    <h3 class="text-3xl font-semibold text-green-800 mb-6 text-center">Reservá tu mesa</h3>
+    <form class="space-y-4">
+      <div>
+        <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required
+          class="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+        <input type="email" id="email" name="email" required
+          class="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+      <div>
+        <label for="telefono" class="block text-sm font-medium text-gray-700">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" required
+          class="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+      <div>
+        <label for="fecha" class="block text-sm font-medium text-gray-700">Fecha</label>
+        <input type="date" id="fecha" name="fecha" required
+          class="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+      <div>
+        <label for="hora" class="block text-sm font-medium text-gray-700">Hora</label>
+        <input type="time" id="hora" name="hora" required
+          class="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+      <div>
+        <label for="personas" class="block text-sm font-medium text-gray-700">Cantidad de personas</label>
+        <input type="number" id="personas" name="personas" min="1" required
+          class="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+      <div class="text-center">
+        <button type="submit"
+          class="mt-4 bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition">
+          Reservar ahora
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
 
   <!-- Contacto -->
   <section id="contacto" class="py-16 bg-white">
